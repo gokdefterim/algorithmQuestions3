@@ -14,7 +14,7 @@ var acceleration = (minute) => {
         console.log((speed * minute) / 2);
         
     }
-    else if(minute > 15 && minute < 35) {
+    else if(minute > 15 && minute <= 35) {
 
         console.log(first15 + 480 * (minute - 15));
 
